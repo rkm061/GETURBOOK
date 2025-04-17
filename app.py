@@ -8,7 +8,7 @@ st.set_page_config(page_title="📚 Book Catalogue", layout="wide")
 # ---------- Load Data ----------
 @st.cache_data
 def load_data():
-    return pd.read_csv("data/goodreads_data_updated.csv")
+    return pd.read_csv("goodreads_data_updated.csv")
 
 df = load_data()
 
