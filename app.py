@@ -75,7 +75,7 @@ filtered_df = filtered_df.sort_values(
 st.markdown("""
 <style>
     section.main > div { padding: 0rem 0.5rem; }
-    .block-container { padding-top: 3rem; padding-bottom: 0rem; }
+    .block-container { padding-left: 0rem; padding-top: 3rem; padding-bottom: 0rem; }
     div[data-testid="column"] {
         /*padding-left: 0rem !important;
         padding-right: 0rem !important;
